@@ -15,4 +15,4 @@ class Area {
         area.setData(5, 2);
         area.area();
     }
-}
+} 
