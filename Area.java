@@ -1,4 +1,4 @@
-class Area {
+public class Area {
     int length, breadth;
 
     void setData(int length, int breadth) {
