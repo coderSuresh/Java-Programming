@@ -1,4 +1,4 @@
-class Adder {
+public class Adder {
     int a, b;
 
     void setData(int x, int y) {
