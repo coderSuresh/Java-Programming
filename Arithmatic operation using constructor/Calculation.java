@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Calculation {
     int a, b;
 
+    // constructor
     Calculation(int a, int b) {
         this.a = a;
         this.b = b;

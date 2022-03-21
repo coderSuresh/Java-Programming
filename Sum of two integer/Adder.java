@@ -1,3 +1,6 @@
+/* Program: to print sum of two integers
+   Author: codersuresh
+*/
 public class Adder {
     int a, b;
 

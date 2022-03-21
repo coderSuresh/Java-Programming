@@ -1,13 +1,16 @@
 import java.util.Scanner;
 
+// static class
 public class StaticKeyword {
+    // static variabkes
     static int l, b;
 
     StaticKeyword(int l, int b) {
-        this.l = l;
-        this.b = b;
+        StaticKeyword.l = l;
+        StaticKeyword.b = b;
     }
     
+    // static method
     static int area() {
         return l * b;
     }

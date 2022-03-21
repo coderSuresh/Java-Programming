@@ -1,3 +1,4 @@
+// import scanner class to take user input
 import java.util.Scanner;
 
 public class SumOfUserData {
@@ -13,8 +14,12 @@ public class SumOfUserData {
     }
 
     public static void main(String[] args) {
+        // Instantiate scanner object
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("Enter the first number: ");
+
+        // using nextInt() method to get integer input;
         int x = sc.nextInt();
         System.out.println("Enter the second number: ");
         int y = sc.nextInt();
